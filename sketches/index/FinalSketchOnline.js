@@ -71,8 +71,6 @@ function draw() {
      }
    }
 
-<<<<<<< HEAD
-=======
 function keyIsPressed() {
    if (key == 's' || key == 'S') saveCanvas(gd.timestamp(), 'png');
    if (key == 'c' || key == 'C') {
@@ -86,7 +84,6 @@ function keyIsPressed() {
 
 
    }
->>>>>>> ccc283a942da32addad53595801c318951143e44
 
    let x1 = random(width);
    let y1 = random(height);
