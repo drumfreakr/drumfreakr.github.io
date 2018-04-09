@@ -71,22 +71,6 @@ function draw() {
      }
    }
 
-<<<<<<< HEAD
-=======
-function keyIsPressed() {
-   if (key == 's' || key == 'S') saveCanvas(gd.timestamp(), 'png');
-   if (key == 'c' || key == 'C') {
-     // -- save an ase file (adobe swatch export) --
-   let colors = [];
-   for (let i = 0; i < hueValues.length; i++) {
-   colors.push(color(hueValues[i], saturationValues[i], brightnessValues[i]));
-     }
-   writeFile([gd.ase.encode(colors)], gd.timestamp(), 'ase');
-   }
-
-
-   }
->>>>>>> ccc283a942da32addad53595801c318951143e44
 
    let x1 = random(width);
    let y1 = random(height);
