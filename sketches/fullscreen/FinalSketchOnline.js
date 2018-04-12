@@ -39,7 +39,8 @@ function draw() {
   let spectrum = fft.analyze();
 
   let lowlvls = fft.getEnergy("bass", "lowMid");
-  let midlvls = fft.getEnergy("mid", "treble");
+  let midlvls = fft.getEnergy("mid", "highMid");
+  let highlvls = fft.getEnergy("treble");
 
   let sw = map(midiMap[41],0,127,0,width);
   let sh = map(midiMap[21],0,127,0,height);
